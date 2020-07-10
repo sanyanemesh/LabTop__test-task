@@ -1,8 +1,6 @@
 .lightpaper {
   padding-left: 0;
-  // width: 1307px;
   height: 311px;
-  // background-color: #1f64d6;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -49,10 +47,12 @@
     z-index: 1;
     transition: 1s ease-out all;
     overflow: hidden;
+    cursor: pointer;
 
     &:hover {
-      border-radius: 25px;
+      border-radius: 15px;
       box-shadow: 10px 5px 5px #ddbe40c9;
+      font-weight: bold;
     }
   }
 }
