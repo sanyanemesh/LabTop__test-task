@@ -1,7 +1,6 @@
 .service {
   box-sizing: border-box;
   padding-top: 195px;
-  // padding-left: 33px;
 
   &__symbol {
     margin-top: -10px;
@@ -16,10 +15,10 @@
     font-weight: bolder;
     width: 350px;
     color: #fafaf7;
-    font-family: "ProximaNova-Black";
+    font-family: ProximaNova-Black, sans-serif;
   }
 
-  &__blocks-container{
+  &__blocks-container {
     width: 976px;
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +35,7 @@
 
 .block {
   width: 420px;
-  &__image{
+  &__image {
     margin: 0;
   }
 
@@ -49,13 +48,13 @@
     margin-top: 18px;
     color: #fafaf7;
     font-size: 32px;
-    font-family: ProximaNova-Bold;
+    font-family: ProximaNova-Bold, sans-serif;
     letter-spacing: 0.5px;
   }
 
   &__text {
     color: #738299;
-    font-family: ProximaNova-Light;
+    font-family: ProximaNova-Light, sans-serif;
     font-size: 18px;
   }
 }

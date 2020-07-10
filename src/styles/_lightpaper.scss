@@ -8,31 +8,30 @@
   position: relative;
 
   &__title {
-    font-family: ProximaNova-extrabld;
+    font-family: ProximaNova-extrabld, sans-serif;
     font-size: 32px;
-    color: #ffffff;
+    color: #fff;
     margin-top: 70px;
     width: 200px;
-    height: 100px
+    height: 100px;
   }
 
   &__text {
     display: block;
-    font-family: ProximaNova-regular;
+    font-family: ProximaNova-regular, sans-serif;
     font-size: 24px;
-    color: #ffffff;
+    color: #fff;
     margin-top: 110px;
     margin-left: 87px;
     letter-spacing: 1px;
     width: 200px;
-    height: 100px
+    height: 100px;
   }
 
   &__newspaper-img {
     position: relative;
     bottom: 310px;
-    left: 500px
-
+    left: 500px;
   }
 
   &__btn {
@@ -43,13 +42,13 @@
     right: 600px;
     height: 80px;
     width: 390px;
-    font-family: ProximaNova-Bold;
+    font-family: ProximaNova-Bold, sans-serif;
     font-size: 22px;
     letter-spacing: 0.5px;
     background-color: #fccf18;
     z-index: 1;
-	  transition: 1s ease-out all;
-	  overflow: hidden;
+    transition: 1s ease-out all;
+    overflow: hidden;
 
     &:hover {
       border-radius: 25px;
