@@ -10,24 +10,38 @@
     }
 
     &__btn {
-      border: 0;
-      outline: none;
-      position: relative;
+
       left: 100px;
       right: -20px;
       top: -325px;
       bottom: 0;
-      height: 80px;
-      width: 390px;
-      background-color: #fccf18;
-      z-index: 1;
-      transition: 1s ease-out all;
-      overflow: hidden;
+    }
+  }
+}
 
-      &:hover {
-        border-radius: 25px;
-        box-shadow: 10px 5px 5px #ddbe40c9;
-      }
+@media only screen and (min-width: 1441px) and (max-width: 1930px) {
+  .section {
+    padding-left: 433px;
+
+    &__lightpaper {
+      padding-top: 0;
+      background-position: 93% 50%;
+      margin-right: 290px;
+    }
+  }
+
+  .lightpaper {
+    &__newspaper-img {
+      position: relative;
+      bottom: 70px;
+      left: 50px;
+    }
+
+    &__btn {
+      left: 100px;
+      right: -20px;
+      top: -335px;
+      bottom: 0;
     }
   }
 }

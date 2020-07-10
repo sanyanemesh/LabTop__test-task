@@ -1,4 +1,2 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
+Made my best pixelPerfect for 1440px test task. Now working on another 2 layouts.
     - [DEMO LINK](https://sanyanemesh.github.io/<repo_name>/)

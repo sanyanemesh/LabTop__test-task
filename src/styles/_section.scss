@@ -1,5 +1,4 @@
 .section {
-  // padding: 100px calc(50% - 570px) 0;
   padding-left: 133px;
   padding-top: 120px;
   margin: 0;
@@ -10,6 +9,7 @@
     background-image: url(../images/icons/favicon_primary_white.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-size: 990px 1070px;
   }
 
   &__lightpaper {
