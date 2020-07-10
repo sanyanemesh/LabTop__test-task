@@ -1,0 +1,28 @@
+.section {
+  // padding: 100px calc(50% - 570px) 0;
+  padding-left: 133px;
+  padding-top: 120px;
+  margin: 0;
+
+  &__service {
+    height: 1361px;
+    background: #233249;
+    background-image: url(../images/icons/favicon_primary_white.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  &__lightpaper {
+    padding-top: 0;
+    background-color: #1f64d6;
+    background-image: url(../images/Symbol_Docs.png);
+    background-repeat: no-repeat;
+    margin-right: 150px;
+    z-index: 2;
+    margin-top: -155.5px;
+  }
+
+  &__search {
+    padding-top: 150px;
+  }
+}

@@ -1,7 +1,15 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "section";
+@import "service";
+@import "lightpaper";
+@import "search";
+@import "media";
+
 
 body {
   background: $c-gray;
+  margin: 0;
+  padding: 0;
 }

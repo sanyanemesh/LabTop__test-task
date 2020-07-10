@@ -1,0 +1,59 @@
+.lightpaper {
+  padding-left: 0;
+  // width: 1307px;
+  height: 311px;
+  // background-color: #1f64d6;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  &__title {
+    font-family: ProximaNova-extrabld;
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: 70px;
+    width: 200px;
+    height: 100px
+  }
+
+  &__text {
+    display: block;
+    font-family: ProximaNova-regular;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 110px;
+    margin-left: 87px;
+    letter-spacing: 1px;
+    width: 200px;
+    height: 100px
+  }
+
+  &__newspaper-img {
+    position: relative;
+    bottom: 310px;
+    left: 500px
+
+  }
+
+  &__btn {
+    border: 0;
+    outline: none;
+    position: relative;
+    top: 40px;
+    right: 600px;
+    height: 80px;
+    width: 390px;
+    font-family: ProximaNova-Bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    background-color: #fccf18;
+    z-index: 1;
+	  transition: 1s ease-out all;
+	  overflow: hidden;
+
+    &:hover {
+      border-radius: 25px;
+      box-shadow: 10px 5px 5px #ddbe40c9;
+    }
+  }
+}

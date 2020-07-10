@@ -1,0 +1,61 @@
+.service {
+  box-sizing: border-box;
+  padding-top: 195px;
+  // padding-left: 33px;
+
+  &__symbol {
+    margin-top: -10px;
+  }
+
+  &__title {
+    margin-top: 10px;
+    padding: 0;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 350px;
+    color: #fafaf7;
+    font-family: "ProximaNova-Black";
+  }
+
+  &__blocks-container{
+    width: 976px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__container {
+    box-sizing: border-box;
+    margin-top: 61px;
+    margin-bottom: 35px;
+    padding-left: 60px;
+  }
+}
+
+.block {
+  width: 420px;
+  &__image{
+    margin: 0;
+  }
+
+  &__img {
+    height: 50px;
+    width: 50px;
+  }
+
+  &__title {
+    margin-top: 18px;
+    color: #fafaf7;
+    font-size: 32px;
+    font-family: ProximaNova-Bold;
+    letter-spacing: 0.5px;
+  }
+
+  &__text {
+    color: #738299;
+    font-family: ProximaNova-Light;
+    font-size: 18px;
+  }
+}
